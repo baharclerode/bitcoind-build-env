@@ -2,7 +2,7 @@
 
 node("docker") {
 
-	stage("Checkout Source") }
+	stage("Checkout Source") {
 		checkout scm
 	}
 
