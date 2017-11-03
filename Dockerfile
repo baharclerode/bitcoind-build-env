@@ -1,7 +1,7 @@
 FROM ubuntu:zesty
 
-RUN apt-get update
-RUN apt-get -y install build-essential \
+RUN apt-get update && \
+    apt-get -y install build-essential \
                        git \
                        automake \
                        bsdmainutils \
